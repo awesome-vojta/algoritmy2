@@ -10,14 +10,7 @@ public class graph_pairing {
            /*4*/{0, 1, 0, 1, 0, 1},
            /*5*/{0, 1, 1, 0, 1, 0}
     };
-    public static void omit(int r, int c){
-        for (int i = r+1; i < G.length; i++) {
-            G[i][c]=0;
-            G[c][i]=0;
-        }
-        G[r][c] = 1;
-        G[r][c] = 1;
-    }
+
     public static void main(String[] args) {
         for (int r = 0; r < G.length; r++) {
             for (int c = 0; c < G.length; c++) {
@@ -27,7 +20,18 @@ public class graph_pairing {
                 }
             }
         }
+        vypis(G);
     }
+
+    public static void omit(int r, int c){
+        for (int i = r+1; i < G.length; i++) {
+            G[i][c]=0;
+            G[c][i]=0;
+        }
+        G[r][c] = 1;
+        G[r][c] = 1;
+    }
+
     public static void vypis(int[][] pole) {
         System.out.print("  ");
         for (int i = 0; i < pole.length; i++) {
@@ -40,7 +44,7 @@ public class graph_pairing {
             for (int y = 0; y < pole.length; y++) {
                 c = pole[x][y];
                 if(c==1000 || c == 0){
-                    System.out.print("?? ");
+                    System.out.print("0 ");
                 }
                 else{System.out.print(pole[x][y] + " ");}
             }
