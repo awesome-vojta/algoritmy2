@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fc0868b-669a-4684-832d-ee46b0a29303" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson06/magic_square.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/algoritmy_2/lesson06/m_squares.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/algoritmy_2/lesson7/draughts_dilemma.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson06/m_squares.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson07/draughts_dilemma.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algoritmy_2/lesson06/magic_square.class" afterPath="$PROJECT_DIR$/out/production/algoritmy_2/lesson06/magic_square.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lesson06/magic_square.java" afterPath="$PROJECT_DIR$/src/lesson06/magic_square.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +26,51 @@
       <file leaf-file-name="graph_pairing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lesson05/graph_pairing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="980">
+              <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="magic_square.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="magic_square.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lesson06/magic_square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="56">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1522010061856" expanded="false" signature="519:812" ph="..." />
+                <marker date="1522010061856" expanded="false" signature="1005:1193" ph="..." />
+                <marker date="1522010061856" expanded="false" signature="1222:1517" ph="..." />
+                <marker date="1522010061856" expanded="false" signature="1717:1853" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draughts_dilemma.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lesson07/draughts_dilemma.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="method#vertical_horizontal#0;class#draughts_dilemma#0" expanded="false" />
+                <element signature="method#upRight#0;class#draughts_dilemma#0" expanded="false" />
+                <element signature="method#upLeft#0;class#draughts_dilemma#0" expanded="false" />
+                <element signature="method#downRight#0;class#draughts_dilemma#0" expanded="false" />
+                <element signature="method#downLeft#0;class#draughts_dilemma#0" expanded="false" />
+                <element signature="method#vypis#0;class#draughts_dilemma#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m_squares.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson06/m_squares.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1092">
+              <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +105,10 @@
         <option value="$PROJECT_DIR$/src/lesson05/graph_pairing.java" />
         <option value="$PROJECT_DIR$/src/lesson06/queue.java" />
         <option value="$PROJECT_DIR$/src/lesson06/arr_queue.java" />
+        <option value="$PROJECT_DIR$/src/lesson06/m_squares.java" />
         <option value="$PROJECT_DIR$/src/lesson06/magic_square.java" />
+        <option value="$PROJECT_DIR$/src/lesson7/draughts_dilemma.java" />
+        <option value="$PROJECT_DIR$/src/lesson07/draughts_dilemma.java" />
       </list>
     </option>
   </component>
@@ -126,6 +164,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,14 +192,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lesson06" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algoritmy_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algoritmy_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson07" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.magic_square">
+  <component name="RunManager" selected="Application.draughts_dilemma">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -264,6 +308,25 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="draughts_dilemma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lesson07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="lesson07.draughts_dilemma" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algoritmy_2" />
+      <envs />
+    </configuration>
     <configuration name="graph_pairing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -291,6 +354,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="lesson05.graph_pairing" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algoritmy_2" />
+      <envs />
+    </configuration>
+    <configuration name="m_squares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lesson06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="lesson06.m_squares" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -321,15 +403,19 @@
       <module name="algoritmy_2" />
       <envs />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.graph_pairing" />
       <item index="1" class="java.lang.String" itemvalue="Application.magic_square" />
+      <item index="2" class="java.lang.String" itemvalue="Application.m_squares" />
+      <item index="3" class="java.lang.String" itemvalue="Application.draughts_dilemma" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.magic_square" />
-        <item index="1" class="java.lang.String" itemvalue="Application.graph_pairing" />
-        <item index="2" class="java.lang.String" itemvalue="Application.graph_pairing" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.draughts_dilemma" />
+        <item index="1" class="java.lang.String" itemvalue="Application.m_squares" />
+        <item index="2" class="java.lang.String" itemvalue="Application.magic_square" />
+        <item index="3" class="java.lang.String" itemvalue="Application.graph_pairing" />
+        <item index="4" class="java.lang.String" itemvalue="Application.graph_pairing" />
       </list>
     </recent_temporary>
   </component>
@@ -349,38 +435,41 @@
       <workItem from="1521618352184" duration="5764000" />
       <workItem from="1521651130341" duration="2469000" />
       <workItem from="1521792086706" duration="92000" />
-      <workItem from="1521991623283" duration="10094000" />
+      <workItem from="1521991623283" duration="10636000" />
+      <workItem from="1522050193375" duration="1212000" />
+      <workItem from="1522079885561" duration="68000" />
+      <workItem from="1522129115938" duration="44000" />
+      <workItem from="1522157079206" duration="6425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25533000" />
+    <option name="totallyTimeSpent" value="33824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="52" width="1680" height="963" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1680" height="961" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2029762" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3607143" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12738095" sideWeight="0.49538866" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15892857" sideWeight="0.49062845" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5046113" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15892857" sideWeight="0.5093716" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,6 +491,85 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/lesson05/graph_pairing.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson06/m_squares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson06/magic_square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <marker date="1522010061856" expanded="false" signature="519:812" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1005:1193" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1222:1517" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1717:1853" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson05/graph_pairing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson06/m_squares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson06/magic_square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <marker date="1522010061856" expanded="false" signature="519:812" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1005:1193" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1222:1517" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1717:1853" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson05/graph_pairing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson06/magic_square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1522010061856" expanded="false" signature="519:812" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1005:1193" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1222:1517" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1717:1853" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson05/graph_pairing.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1484">
           <caret line="53" column="5" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
           <folding />
@@ -413,7 +581,10 @@
         <state relative-caret-position="504">
           <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1522010061856" expanded="false" signature="519:812" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1005:1193" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1222:1517" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1717:1853" ph="..." />
           </folding>
         </state>
       </provider>
@@ -431,7 +602,10 @@
         <state relative-caret-position="644">
           <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1522010061856" expanded="false" signature="519:812" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1005:1193" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1222:1517" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1717:1853" ph="..." />
           </folding>
         </state>
       </provider>
@@ -449,7 +623,10 @@
         <state relative-caret-position="980">
           <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1522010061856" expanded="false" signature="519:812" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1005:1193" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1222:1517" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1717:1853" ph="..." />
           </folding>
         </state>
       </provider>
@@ -467,7 +644,10 @@
         <state relative-caret-position="588">
           <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1522010061856" expanded="false" signature="519:812" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1005:1193" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1222:1517" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1717:1853" ph="..." />
           </folding>
         </state>
       </provider>
@@ -522,18 +702,44 @@
     <entry file="file://$PROJECT_DIR$/src/lesson06/arr_queue.java" />
     <entry file="file://$PROJECT_DIR$/src/lesson05/graph_pairing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="980">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson06/m_squares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson06/magic_square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="56">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1522010061856" expanded="false" signature="519:812" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1005:1193" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1222:1517" ph="..." />
+            <marker date="1522010061856" expanded="false" signature="1717:1853" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson07/draughts_dilemma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="method#vertical_horizontal#0;class#draughts_dilemma#0" expanded="false" />
+            <element signature="method#upRight#0;class#draughts_dilemma#0" expanded="false" />
+            <element signature="method#upLeft#0;class#draughts_dilemma#0" expanded="false" />
+            <element signature="method#downRight#0;class#draughts_dilemma#0" expanded="false" />
+            <element signature="method#downLeft#0;class#draughts_dilemma#0" expanded="false" />
+            <element signature="method#vypis#0;class#draughts_dilemma#0" expanded="false" />
           </folding>
         </state>
       </provider>

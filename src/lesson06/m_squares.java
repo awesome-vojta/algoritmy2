@@ -1,45 +1,30 @@
 package lesson06;
 
-public class magic_square {
+public class m_squares {
     static int magic[][]={{0,0,0},
                           {0,0,0},
                           {0,0,0}};
-
 
     public static void main(String[] args) {
         int n = magic.length * magic.length;
         int posList[][]=new int[n][2];
         int pos[] = {0,magic.length/2};
-        int l_pos[]=new int[2];
         int x; int y;
         for (int i = 1; i <= n; i++) {
-            System.out.println("Loop starts´´´´´´´´´´´´´´´´´´´´´´´");
             x=pos[0];y=pos[1];
-            System.out.print("pos: ");System.out.print(pos[0]);System.out.println(pos[1]);
-            System.out.print("l_pos: ");System.out.print(l_pos[0]);System.out.println(l_pos[1]);
-            System.out.print("pos_l: ");System.out.print(posList[i][0]);System.out.println(posList[i][1]);
             magic[x][y]=i;
             vypis(magic);
+
             if(i==n){ break; }
             posList[i][0]=x;
             posList[i][1]=y;
-            l_pos[0]=x;
-            l_pos[1]=y;
 
-            System.out.print("pos: ");System.out.print(pos[0]);System.out.println(pos[1]);
-            System.out.print("l_pos: ");System.out.print(l_pos[0]);System.out.println(l_pos[1]);
             pos=upLeft(pos);
-            System.out.print("l_pos: ");System.out.print(l_pos[0]);System.out.println(l_pos[1]);
-            System.out.print("pos: ");System.out.print(pos[0]);System.out.println(pos[1]);
-            System.out.print("pos_l: ");System.out.print(posList[i][0]);System.out.println(posList[i][1]);
             // If pos is full, take previous and go down by one
             if(magic[pos[0]][pos[1]]!=0){
                 System.out.println("go down");
-                pos=goDown(l_pos);
+                pos=goDown(posList[i]);
             }
-            System.out.println("Loop ends´´´´´´´´´´´´´´´´´´´´´´´");
-            System.out.println();
-            System.out.println();
         }
     }
 
